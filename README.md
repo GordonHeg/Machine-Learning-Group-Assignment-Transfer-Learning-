@@ -4,11 +4,13 @@ The project aims to classify road sign images using a deep-learning convolutiona
 
 ## Dataset
 
-The dataset consists of 50,000 images across 43 categories, sourced from Kaggle's. For our project, we trained our model only on the initial 10 categories from the GTSRB—German Traffic Sign Dataset.
+The dataset consists more than 50,000 images of road signs across 43 categories, sourced from Kaggle's. For our project, we trained our model only on the initial 10 categories from the GTSRB—German Traffic Sign Dataset.
 
 For this project, we trained our model on a subset of data, focusing only on the first 10 categories (labels 0-9). Each image was preprocessed to align with the requirements of the VGG16 model.
 
-![Dataset Sample](https://raw.githubusercontent.com/GordonHeg/Machine-Learning-Group-Assignment-Transfer-Learning-/main/images/dataset_sample.jpg)
+![Figure 1: 43 categories of road sign available in dataset](https://raw.githubusercontent.com/GordonHeg/Machine-Learning-Group-Assignment-Transfer-Learning-/main/images/dataset_sample.jpg)
+*Figure 1: Road signs 43 categories available in dataset*
+
 
 ## Model Architecture
 
@@ -21,4 +23,12 @@ We adopted a transfer learning approach with the VGG16 model as the base network
 
 The combination of pre-trained features and custom layers enabled training with limited computational resources.
 
-![Model Architecture Diagram](https://raw.githubusercontent.com/GordonHeg/Machine-Learning-Group-Assignment-Transfer-Learning-/main/images/model_architecture.jpg)
+![Figure 2: VGG16 Model Architecture Diagram](https://raw.githubusercontent.com/GordonHeg/Machine-Learning-Group-Assignment-Transfer-Learning-/main/images/model_architecture.jpg)
+*Figure 2: VGG16 Model Architecture Diagram*
+
+**Transfer learning** was chosen to efficiently classify road sign images with limited data of 14000 images of 10 categories. By using the pre-trained VGG16 model, we leveraged its ability to extract features like edges and shapes from the ImageNet dataset. 
+
+The transfer learning approach helps in reducing training time, improving accuracy and minimising the risk of overfitting, The Fine-tunning Fully connected dense layer allowed us to adapt the model specifically for the road sign dataset while retaining the pre-trained knowledge ensuring efficient use of data and computation resources.
+
+## Results
+
