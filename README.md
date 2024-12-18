@@ -2,8 +2,6 @@
 
 The project aims to classify road sign images using a deep-learning convolutional neural network (CNN). By leveraging a transfer learning approach, we utilized the VGG16 model developed by the University of Oxford to improve performance and make training efficient. The goal of the project is to accurately identify road signs from the initial 10 categories [0-9] of the dataset.
 
-![Road Signs Sample](https://raw.githubusercontent.com/GordonHeg/Machine-Learning-Group-Assignment-Transfer-Learning-/main/images/road_signs_sample.jpg)
-
 ## Dataset
 
 The dataset consists of 50,000 images across 43 categories, sourced from Kaggle's. For our project, we trained our model only on the initial 10 categories from the GTSRB—German Traffic Sign Dataset.
