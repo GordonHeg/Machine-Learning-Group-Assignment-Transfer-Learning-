@@ -31,4 +31,15 @@ The combination of pre-trained features and custom layers enabled training with 
 The transfer learning approach helps in reducing training time, improving accuracy and minimising the risk of overfitting, The Fine-tunning Fully connected dense layer allowed us to adapt the model specifically for the road sign dataset while retaining the pre-trained knowledge ensuring efficient use of data and computation resources.
 
 ## Results
+- Train AUC: **0.9932**, Val AUC: **0.9944**, Test AUC: **0.9621** indicate strong overall model performance.  
+- Model achieved **77% accuracy** with a macro-averaged **AUC of 0.83**.  
+- Precision, recall, and F1-scores show varying performance across classes, with some performing poorly.  
+- Class **3 and 5** exhibit low F1-scores (**0.61** and **0.68**, respectively), highlighting room for improvement.  
+- The model is effective but requires optimization to enhance performance for underperforming classes.  
+## Conclusion
+
+- Demonstrated the effectiveness of transfer learning using a pre-trained VGG16 model.
+- Achieved high performance with an AUC of 0.96 on the test set, reducing training effort.
+- Struggled with Class 0 and Class 3 despite data augmentation due to insufficient image availability and limited new feature learning.
+- Transfer learning proves to be a viable approach for building accurate and efficient machine learning models.
 
