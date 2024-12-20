@@ -23,7 +23,7 @@ We adopted a transfer learning approach with the VGG16 model as the base network
 
 The combination of pre-trained features and custom layers enabled training with limited computational resources.
 
-![Figure 2: VGG16 Model Architecture Diagram](https://raw.githubusercontent.com/GordonHeg/Machine-Learning-Group-Assignment-Transfer-Learning-/main/images/model_architecture.jpg)
+![Figure 2: VGG16 Model Architecture Diagram](https://raw.githubusercontent.com/GordonHeg/Machine-Learning-Group-Assignment-Transfer-Learning-/main/images/modified_architecture.PNG)
 *Figure 2: VGG16 Model Architecture Diagram*
 
 **Transfer learning** was chosen to efficiently classify road sign images with limited data of 14000 images of 10 categories. By using the pre-trained VGG16 model, we leveraged its ability to extract features like edges and shapes from the ImageNet dataset. 
