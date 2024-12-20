@@ -34,7 +34,7 @@ The transfer learning approach helps in reducing training time, improving accura
 - Train AUC: **0.9932**, Val AUC: **0.9944**, Test AUC: **0.9621** indicate strong overall model performance.  
 - Model achieved **77% accuracy** with a macro-averaged **AUC of 0.83**.  
 - Precision, recall, and F1-scores show varying performance across classes, with some performing poorly.  
-- Class **3 and 5** exhibit low F1-scores (**0.61** and **0.68**, respectively), highlighting room for improvement.  
+- Class **0 and 3** exhibit low F1-scores (**0.68** and **0.61**, respectively), highlighting room for improvement.  
 - The model is effective but requires optimization to enhance performance for underperforming classes.  
 ## Conclusion
 
